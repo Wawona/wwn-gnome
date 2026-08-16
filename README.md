@@ -20,6 +20,6 @@ apps run as direct Wawona clients with `GDK_BACKEND=wayland`. See Wawona
    sandbox-safe dirs; prefer per-app GTK clients over full Shell on-device.
 3. Fractional-scale + decoration semantics verified against Wawona.
 4. Replace `dependencies/gnome/stub.nix` per platform; expose `gnome-*`; register.
-5. Add `gnome` to the `wwn-apt` catalog as `status: planned`, then `approved`.
+5. Add `gnome` to the port plan / registryFragment as `status: planned`, then `approved`.
 
 Convention: [wwn-* porting convention](https://github.com/Wawona/Wawona/blob/main/docs/2026-wwn-porting-convention.md).
